@@ -24,3 +24,9 @@ Para habilitarlo deben hacer lo siguiente:
 Luego de estos pasos pueden levantar el dashboard de kibana con esta instruccion:
 
     minikube service kibana-logging --namespace=kube-system
+
+Si no ven el dashboard pueden escribir:
+
+               minikube tunnel
+               
+               
